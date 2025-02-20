@@ -1,0 +1,17 @@
+name = "chandrabhan singh rathore"
+print(type(name))
+
+roll_number = 22007
+print(type(roll_number))
+
+percentage = 95.5
+print(type(percentage))
+
+is_student = True
+print(type(is_student))
+
+print(name,roll_number,percentage,is_student)
+
+
+print("My name is",name,"my roll number is",roll_number,"i scored",percentage,"% in my class 12th and i am a student",is_student)
+#if the data type are same in a given print statement then we can use + sign for string else we can use comma at evey statement like above we used
