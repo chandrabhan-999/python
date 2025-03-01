@@ -1,0 +1,10 @@
+my_array = [10, 20, 30, 40, 50]
+print(my_array[0])
+print(my_array[1])
+my_array[2] = 100
+print(my_array)
+my_array.append(60)
+print(my_array)
+my_array.remove(40)
+print(my_array)
+print(len(my_array))
