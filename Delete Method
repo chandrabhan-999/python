@@ -1,0 +1,21 @@
+
+def delete(self, key):
+    current = self.head
+    if current and current.data == key:  
+        self.head = current.next  
+        current = None
+        return
+    
+    prev = None
+    while current:
+        if current.data == key:
+            break
+        prev = current
+        current = current.next
+    
+    if current is None:  
+        print(f"{key} not found in the list.")
+        return
+    
+    prev.next = current.next 
+    current = None
